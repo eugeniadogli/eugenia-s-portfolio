@@ -1,5 +1,9 @@
 /* layout and design on web page */
+/* sticking to hash codes for the colors */
 body {
-    background-color: rgb(105, 63, 63);
-    color: rgb(112, 47, 47);
+    background-color:#000000;
+    color: #ffffff;
+}
+section {
+    background-color:#008080
 }
