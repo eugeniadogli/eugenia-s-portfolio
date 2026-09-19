@@ -1,1 +1,21 @@
+GENERAL:
+git commit -m "describe what you did"
+
+HTML FILES:
+git add home_page.html
+
+CSS FILES:
 git add css_folder/home_page_css.css
+
+IMAGES:
+git add images_art_works/[name of image].[file type]
+git commit -m "image added"
+eg.
+git add images_art_works/character_designs_success_1.png
+
+JAVASCRIPT FILES:
+
+
+
+
+
