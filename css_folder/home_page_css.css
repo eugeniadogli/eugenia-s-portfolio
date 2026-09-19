@@ -3,6 +3,7 @@
 body {
     background-color:#000000;
     color: #ffffff;
+    margin: 0;
 }
 section {
     background-color:#008080
@@ -11,4 +12,50 @@ nav {
     background-color: #000000;
     padding: 24px 32px;
     text-align: right;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: #008080;
+}
+
+#welcome {
+    padding: 80px 60px;
+    display: flex;
+}
+
+#welcome > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome img {
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+#welcome > div:last-child {
+    margin-left: 5%;
+    max-width: 600px;
+    align-self: center;
+}
+
+#welcome h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#welcome p:first-of-type {
+    font-size: 24px;
+}
+
+#welcome p:last-of-type {
+    font-size: 18px;
 }
