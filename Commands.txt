@@ -1,11 +1,21 @@
+*****GIT COMMANDS LIBRARY*****
+
 GENERAL:
+git pull
+
+git add [file name]
 git commit -m "describe what you did"
+git push
 
 HTML FILES:
 git add home_page.html
+git add art_gallery.css
+git add blog.html
 
 CSS FILES:
 git add css_folder/home_page_css.css
+git add css_folder/art_gallery_css.css
+git add css_folder/blog_css.css
 
 IMAGES:
 git add images_art_works/[name of image].[file type]
