@@ -25,10 +25,18 @@ nav a {
 nav a:hover {
     color: #008080;
 }
+nav a.active {
+    color: #008080;
+}
+
+
+/* WELCOME SECTION */
 
 #welcome {
     padding: 80px 60px;
     display: flex;
+    min-height: 500px;
+    align-items: center;
 }
 
 #welcome > div:first-child {
@@ -39,12 +47,12 @@ nav a:hover {
 #welcome img {
     width: 350px;
     margin-bottom: 40px;
+    border: 2px solid #ffffff;
 }
 
 #welcome > div:last-child {
-    margin-left: 5%;
-    max-width: 600px;
-    align-self: center;
+    margin-left: 50px;
+    
 }
 
 #welcome h1 {
@@ -58,4 +66,91 @@ nav a:hover {
 
 #welcome p:last-of-type {
     font-size: 18px;
+}
+
+/* THE ABOUT SECTION OF THE HOME PAGE */
+#about {
+    background-color: #f3f4f6;
+     color: #000000;
+     padding: 80px 60px;
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+}
+
+#about > div:last-child {
+    margin-left: 60px;
+}
+
+#about img {
+    width: 300px;
+     border-radius: 20%;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#purpose {
+    background-color: #008080;
+    color: #ffffff;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+#purpose p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* EXPECTATIONS AND CONTACT PART */
+#expectations {
+    background-color: #f3f4f6;
+    color: #000000;
+    padding: 80px 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#expectations > div {
+    width: 30%;
+}
+
+
+#expectations > div:last-child {
+    background-color: #83d1bf;
+    padding: 30px;
+}
+
+.star {
+    font-size: 60px;
+    color: #000000;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin 3s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    33.33% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
