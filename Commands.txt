@@ -9,7 +9,7 @@ git push
 
 HTML FILES:
 git add home_page.html
-git add art_gallery.css
+git add art_gallery.html
 git add blog.html
 
 CSS FILES:
