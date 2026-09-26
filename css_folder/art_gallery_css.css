@@ -71,7 +71,7 @@ nav a.active {
     gap: 48px;
 }
 
-.artwork-item-1 {
+.artwork-image {
     background-color: #000000;
     aspect-ratio: 1 / 1;
     border: 1px solid #27272a;
@@ -81,4 +81,16 @@ nav a.active {
     align-items: center;
 
     color: #52525b;
+}
+
+.artwork-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 16px;
+    padding: 0 4px;
+
+    color: #e4e4e7;
+    font-size: 14px;
 }
