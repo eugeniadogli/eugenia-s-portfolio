@@ -12,3 +12,21 @@ To add a new art work, this is the default code:
 
             </div>
             <!-- End of card -->
+
+
+____________________________________________
+
+
+Adding a new blog (in blog section):
+
+<div class="blog_card">
+            <div class="blog_image">
+                <a href="blogs_folder/blog_1.html">
+                    <h1>Why I like art</h1>
+                </a>
+            </div>
+            <div class="blog_info">
+                <span> My first blog </span>
+                <span> September 2026 </span>
+            </div>
+</div>
