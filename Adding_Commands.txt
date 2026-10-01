@@ -1,0 +1,14 @@
+To add a new art work, this is the default code:
+
+<!-- third card -->
+            <div class="artwork-card">
+                <div class="artwork-image">
+                    <img src="images_art_works/art.png" alt="art alt name">
+                </div>
+                <div class="artwork-info">
+                    <span> My [number] art work </span>
+                    <span> Date here </span>
+                </div>
+
+            </div>
+            <!-- End of card -->
