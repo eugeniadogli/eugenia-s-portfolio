@@ -31,3 +31,9 @@ OTHER FILES:
 git add Commands.txt
 git add Adding_Commands.txt
 
+
+EG ADDING A NEW FOLDER WITH NEW FILE IN IT:
+
+git add art_dets_folder/art_1.html
+git commit -m "Add art details page"
+git push
