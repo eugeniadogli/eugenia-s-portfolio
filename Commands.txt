@@ -29,4 +29,5 @@ JAVASCRIPT FILES:
 
 OTHER FILES:
 git add Commands.txt
+git add Adding_Commands.txt
 
