@@ -31,7 +31,7 @@ nav a.active {
 
 
 .gallery-header {
-    background-color: #f3f4f6;
+    background-color: #f1fdff;
     color: #27272a;
     padding: 48px;
     border-bottom: 1px solid #d4d4d8;
@@ -45,16 +45,16 @@ nav a.active {
 .gallery-header h1 {
     font-size: 40px;
     font-family: Georgia, serif;
-    color: #71717a;
+    color: #162d2a;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 8px;
 }
 
 .gallery-header p {
-    color: #52525b;
-    font-family: Georgia, serif;
-    font-style: italic;
+    color: #162d2a;
+    font-family: Space Grotesk, sans-serif;
+    font-style: normal;
     max-width: 576px;
 }
 
