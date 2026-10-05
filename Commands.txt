@@ -37,3 +37,5 @@ EG ADDING A NEW FOLDER WITH NEW FILE IN IT:
 git add art_dets_folder/art_1.html
 git commit -m "Add art details page"
 git push
+
+git add blog_dets_folder/blog_1.html
