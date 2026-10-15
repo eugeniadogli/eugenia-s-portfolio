@@ -9,9 +9,34 @@ body {
 
 nav {
     background-color: #000000;
-    padding: 24px 32px;
-    text-align: right;
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.nav-name {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.nav-first-name {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.nav-last-name {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -44,7 +69,8 @@ nav a.active {
 
 .gallery-header h1 {
     font-size: 40px;
-    font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     color: #162d2a;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -106,6 +132,8 @@ nav a.active {
     padding: 0 4px;
 
     color: #e4e4e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 14px;
 }
 
