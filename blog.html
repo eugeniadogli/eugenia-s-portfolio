@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,64 +6,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Eugenia Dogli | Portfolio</title>
+    <title>Eugenia Dogli | Mini Blogs</title>
 
-    <link rel="stylesheet" href="css_folder/blog_css.css">
-
-    <!-- <link rel="stylesheet" href="css/portfolio_style.css"> this line
-     tells the browser, go to this folder and load this css file. This is 
-     but let's name the css file portfolio_style.csshow we keep HTML and CSS separate. -->
+        <link rel="stylesheet" href="css_folder/blog_css.css">
 </head>
 
-<body>
-    <!-- Navigation, to explore other pages of the website -->
+ <body>
+    <!-- Navigation -->
     <nav>
-        <a href="home_page.html">Home</a>
-        <a href="art_gallery.html" >Art Gallery</a>
-        <a href="blog.html" class="active">Mini Blogs</a>
-        <!-- I'm putting all other htmls in the same file -->
+        <a href="home_page.html" class="nav-name">
+             <span class="nav-first-name">Eugenia</span>
+             <span class="nav-last-name">Dogli</span>
+        </a>
+        <div>
+            <a href="home_page.html">Home</a>
+            <a href="art_gallery.html">Art Gallery</a>
+            <a href="blog.html" class="active">Mini Blogs</a>
+        </div>
     </nav>
-    <section class = "blog_intro">
-        <p>
-            Welcome to where blogs are. find them below, search button is coming soon.
-        </p>
+
+    <!-- Introduction -->
+    <section class="blog_intro">
+        <h1>My thoughts and opinions</h1>
+        <p>This is where I write about a few things I think about.</p>
     </section>
+
+    <!-- Blog listing -->
     <main class="life-container">
 
-    <h1>Thoughts and my POVs</h1>
+        <h1>Thoughts and my POVs</h1>
 
-    <div class="thought-list">
+        <div class="thought-list">
 
-        <article class="thought-preview">
-            <a href="blog_dets_folder/blog_1.html">
-                <h2>On Composition and Coding</h2>
-            </a>
+            <article class="thought-preview">
+                <a href="blog_dets_folder/blog_1.html">
+                    <h2>On Composition and Coding</h2>
+                </a>
 
-            <div class="thought-info">
-                <span>July 4, 2026</span>
-                <span>👁 0 views</span>
-            </div>
-        </article>
+                <p class="thought-date">July 4, 2026</p>
+            </article>
 
-        <article class="thought-preview">
-            <a href="blog_dets_folder/blog_2.html">
-                <h2>The Speed of Traditional Mediums</h2>
-            </a>
+            <article class="thought-preview">
+                <a href="blog_dets_folder/blog_2.html">
+                    <h2>The Speed of Traditional Mediums</h2>
+                </a>
 
-            <div class="thought-info">
-                <span>June 18, 2026</span>
-                <span>👁 0 views</span>
-            </div>
-        </article>
+                <p class="thought-date">June 18, 2026</p>
+            </article>
 
-    </div>
+        </div>
 
-</main>
+    </main>
 
-    
-
-</body>
-
-</html>
-
+ </body>
 </html>
