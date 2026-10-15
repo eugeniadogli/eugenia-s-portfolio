@@ -16,6 +16,8 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     margin-right: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight:900;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -29,20 +31,61 @@ nav a.active {
     color: #008080;
 }
 
+.nav-name {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+}
 
+.nav-first-name {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.nav-last-name {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+   
 .life-container {
     width: 70%;
+    max-width: 1100px;
     margin: 20px auto 0;
+    box-sizing: border-box;
 }
 
 
 .life-container h1 {
     font-size: 44px;
-    margin: 20px 0 25px;
+    line-height: 1.2;
+    margin: 0 0 25px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .thought-list {
     margin-top: 20px;
+}
+
+
+.thought-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.thought-preview {
+    padding: 28px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .thought-preview h2 {
@@ -66,4 +109,136 @@ nav a.active {
     justify-content: space-between;
     margin-top: 12px;
     font-size: 13px;
+}
+
+
+.blog_intro {
+    background-color: #f7fafa;
+    margin: 0 0 28px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.blog_intro h1 {
+    margin: 0;
+    padding: 28px 32px;
+    color: #000000;
+}
+
+.blog_intro p {
+    margin: 0;
+    padding: 0 32px 28px;
+    color: #000000;
+}
+
+
+.thought-date
+ {
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 600px) {
+    .life-container {
+        width: 88%;
+    }
+
+    .life-container h1 {
+        font-size: 34px;
+    }
+
+    .thought-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .thought-preview h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .blog_intro h1 {
+        padding: 24px 24px 12px;
+        font-size: 30px;
+    }
+
+    .blog_intro p {
+        padding: 0 24px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog_intro h1 {
+        font-size: 25px;
+        padding: 20px 18px 10px;
+    }
+
+    .blog_intro p {
+        font-size: 15px;
+        padding: 0 18px 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    nav {
+        padding: 20px 14px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        text-align: center;
+    }
+
+    nav a {
+        margin-right: 0;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .life-container {
+        width: 85%;
+    }
+
+    .life-container h1 {
+        font-size: 36px;
+    }
+
+    .thought-preview {
+        padding: 24px 0;
+    }
+
+    .thought-preview h2 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 480px) {
+    .life-container {
+        width: 90%;
+        margin-top: 16px;
+    }
+
+    .life-container h1 {
+        font-size: 29px;
+        padding-bottom: 14px;
+        overflow-wrap: anywhere;
+    }
+
+    .thought-preview h2 {
+        font-size: 19px;
+        line-height: 1.4;
+    }
+
+    .thought-date {
+        font-size: 12px;
+    }
 }
