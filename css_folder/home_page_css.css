@@ -115,6 +115,7 @@ nav a.active {
     width: 350px;
     margin-bottom: 40px;
     border: 2px solid #ffffff;
+    border-radius: 20%;
 }
 
 #welcome > div:last-child {
@@ -158,14 +159,17 @@ nav a.active {
 
 #about img {
     width: 300px;
-     border-radius: 20%;
+    border-radius: 20%;
 }
 
 #about h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
     font-size: 40px;
     margin-top: 0;
 }
 #about p {
+    font-family:'Space Grotesk', sans-serif;
     font-size: 18px;
     line-height: 1.6;
 }
@@ -174,8 +178,10 @@ nav a.active {
     font-size: 18px;
     line-height: 1.6;
 }
-
+/* PURPOSE SECTION */
 #purpose {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
     background-color: #008080;
     color: #ffffff;
     padding: 80px 60px;
@@ -279,6 +285,8 @@ nav a.active {
     }
 
     #purpose h2 {
+        font-family:'DM Serif Display', serif;
+        font-weight:900;
         font-size: 30px;
     }
 
