@@ -10,9 +10,35 @@ section {
 }
 nav {
     background-color: #000000;
-    padding: 24px 32px;
-    text-align: right;
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-name {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.nav-first-name {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.nav-last-name {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -29,11 +55,45 @@ nav a:hover {
 nav a.active {
     color: #008080;
 }
-/* EUGENIA DOGLI */
-#eugenia{
-     background-color: #f3f4f6;
 
+
+
+/* NAME BANNER */
+#name-banner {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 50px 7%;
+    overflow: hidden;
 }
+
+.name-layout {
+    position: relative;
+    min-height: 350px;
+}
+
+.first-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(70px, 15vw, 220px);
+    font-weight: 900;
+    line-height: 0.85;
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.last-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(80px, 14vw, 200px);
+    font-weight: normal;
+    font-style: italic;
+    line-height: 0.85;
+    margin: -5px 0 0 -10px;
+    position: relative;
+    z-index: 2;
+}
+
+
 
 /* WELCOME SECTION */
 
@@ -61,16 +121,23 @@ nav a.active {
 }
 
 #welcome h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    font-style: italic;
     font-size: 60px;
     margin: 0;
 }
 
 #welcome p:first-of-type {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 24px;
 }
 
 #welcome p:last-of-type {
-    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
 }
 
 /* THE ABOUT SECTION OF THE HOME PAGE */
