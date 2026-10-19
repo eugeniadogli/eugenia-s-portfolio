@@ -1,52 +1,61 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My First Art Work | Say, Croissant! </title>
-    <!-- title will change based on the specific artwork -->
+    <title>Chronicles of Light | Eugenia Dogli</title>
+    <link rel="stylesheet" href="../css_folder/art_1_css.css">
 </head>
 
 <body>
+    <main class="artwork-page">
+        <a class="back-link" href="../art_gallery.html">&larr; Back to Gallery</a>
 
-    <a href="../art_gallery.html">← Back to Gallery</a>
-    <!-- What does ../ mean?
+        <header class="artwork-header">
+            <h1>Chronicles of Light</h1>
+            <p class="artwork-date">April 2026</p>
+        </header>
 
-.. means "go up one folder." -->
+        <section class="process-row process-row--opening" aria-label="Initial sketch">
+            <div class="annotation">
+                <p>
+                    “Fue un placer capturar el Edificio Óptimo porque,
+                    independientemente del ángulo desde el que eligiera
+                    fotografiarlo, siempre tenía un nuevo patrón que observar.”
+                </p>
+                <p class="stage-label">[STAGE 1 ANNOTATION: CONCEPT &amp; DRAFT LINES]</p>
+            </div>
+            <figure class="process-figure">
+                <div class="process-image process-image--opening" role="img" aria-label="Initial stage sketch placeholder">
+                    <span>Initial stage / sketch</span>
+                </div>
+                <figcaption>2026 &mdash; Initial layout construction</figcaption>
+            </figure>
+        </section>
 
-    <h1>My First Art Work</h1>
+        <section class="process-row process-row--middle" aria-label="Structural harmony study">
+            <div class="process-image process-image--middle" role="img" aria-label="Mid-stage artwork placeholder">
+                <span>Mid-stage work in progress</span>
+            </div>
+            <div class="process-description">
+                <h2>Structural Harmony</h2>
+                <p>Daniel Gallego / Process Study</p>
+            </div>
+        </section>
 
-    <p>September 2026</p>
-
-    <h2>About the artwork</h2>
-
-    <p>
-        This is where I will write about the idea behind this artwork,
-        what inspired me, and what I wanted to explore.
-    </p>
-
-    <section class="process-section">
-
-    <div class="annotation">
-        <p>
-            This was the first stage of the artwork. 
-            I began by exploring the basic shapes and composition
-            before adding details.
-        </p>
-
-        <p class="stage-label">
-            [STAGE 1: INITIAL SKETCH]
-        </p>
-    </div>
-
-    <div class="process-image">
-        <img src="../images/art_1_sketch.jpg" alt="Initial sketch of my artwork">
-    </div>
-
-</section>
-
+        <section class="process-row process-row--closing" aria-label="Final rendering">
+            <div class="annotation annotation--plain">
+                <p>
+                    Final shading application and highlights contrast tweaking.
+                    This layer sets the emotional tonality of the piece.
+                </p>
+            </div>
+            <div class="process-image process-image--final" role="img" aria-label="Final rendering placeholder">
+                <span>Final rendering stage</span>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
