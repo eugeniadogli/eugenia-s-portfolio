@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    border-top: 5px solid #171719;
-    background-color: #f3f4f6;
+    border-top: 5px solid #171919;
+    background-color: #dcffff;
     color: #101014;
     font-family: Georgia, "Times New Roman", serif;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .back-link {
-    color: #34343b;
+    color: #070707;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     letter-spacing: 0.08em;
@@ -26,7 +26,7 @@ body {
 }
 
 .back-link:hover {
-    color: #8b00ff;
+    color: #00ebfc;
 }
 
 .artwork-header {
@@ -58,7 +58,7 @@ body {
 }
 
 .process-row--opening {
-    align-items: start;
+    align-items: center;
     padding-bottom: 32px;
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 .annotation {
-    border: 1px solid #a100ff;
+    border: 1px solid #195256;
     border-radius: 2px;
     padding: 15px 16px 13px;
 }
@@ -99,6 +99,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    border-radius: 20%;
     background-color: #19191b;
     color: #747480;
     font-family: Arial, Helvetica, sans-serif;
@@ -147,7 +148,8 @@ body {
 }
 
 .annotation--plain p {
-    color: #55505e;
+    color: #000000;
+/* this is for the last pic with the annotation on the side */
 }
 
 @media (max-width: 520px) {
@@ -165,6 +167,10 @@ body {
     .process-row--middle,
     .process-row--closing {
         padding-bottom: 24px;
+    }
+
+    .process-row--opening {
+        align-items: stretch;
     }
 
     .process-row--middle {
