@@ -31,7 +31,7 @@ git add art_dets_folder/art_1.html
 git add art_dets_folder/art_1_css.css
 
 git add blog_dets_folder/blog_1.html
-git add blog_dets_folder/blog_css.css
+git add blog_dets_folder/blog_1_css.css
 
 
 OTHER FILES:
