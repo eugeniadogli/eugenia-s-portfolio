@@ -64,12 +64,9 @@ nav a.active {
 /* NAME BANNER */
 #name-banner {
     position: relative;
-    background:
-        radial-gradient(ellipse at 91% 15%, rgba(0, 128, 128, 0.09), transparent 30%),
-        #f5fafa;
+    background: #ffffff;
     color: #142f30;
     padding: clamp(38px, 4vw, 58px) 7%;
-    border-bottom: 1px solid #d4dfe0;
     overflow: hidden;
 }
 
@@ -78,11 +75,40 @@ nav a.active {
     max-width: 1200px;
     min-height: clamp(280px, 25vw, 360px);
     margin: 0 auto;
+    isolation: isolate;
+}
+
+.name-layout::before,
+.name-layout::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.name-layout::before {
+    width: clamp(380px, 48vw, 620px);
+    top: 50%;
+    left: 88%;
+    background: rgba(0, 128, 128, 0.2);
+    transform: translate(-50%, -50%);
+}
+
+.name-layout::after {
+    width: clamp(290px, 36vw, 470px);
+    top: 50%;
+    left: 88%;
+    background: #008080;
+    transform: translate(-50%, -50%);
 }
 
 .name-kicker {
-    margin: 0 0 clamp(14px, 2.5vw, 28px) 8px;
-    color: #008080;
+    position: relative;
+    z-index: 1;
+    margin: clamp(18px, 2.5vw, 28px) 0 0 8px;
+    color: #085353;
     font-family: Arial, Helvetica, sans-serif;
     font-size: clamp(10px, 1.1vw, 12px);
     font-weight: 700;
@@ -386,7 +412,12 @@ nav a.active {
     }
 
     .name-layout {
-        min-height: clamp(190px, 55vw, 280px);
+        min-height: clamp(230px, 65vw, 300px);
+    }
+
+    .name-layout::before,
+    .name-layout::after {
+        left: 92%;
     }
 
     .first-name {
