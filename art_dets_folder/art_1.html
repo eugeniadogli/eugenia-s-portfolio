@@ -7,9 +7,37 @@
     <link rel="icon" type="image/png" href="favicon-ed.png">
     <title>My First Favourite Artwork | Eugenia Dogli</title>
     <link rel="stylesheet" href="art_1_css.css">
+    <link rel="stylesheet" href="../css_folder/navigation.css">
+    <script src="../javascript_folder/navigation.js" defer></script>
 </head>
 
 <body>
+    <nav aria-label="Primary navigation">
+        <a href="../home_page.html" class="nav-name">
+            <span class="nav-first-name">Eugenia</span>
+            <span class="nav-last-name">Dogli</span>
+        </a>
+        <div class="nav-menu">
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="primary-navigation">
+                <span class="menu-icon" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="../home_page.html">Home</a>
+                <a href="../art_gallery.html">Art Gallery</a>
+                <a href="../blog.html">Mini Blogs</a>
+            </div>
+        </div>
+    </nav>
+
     <main class="artwork-page">
         <a class="back-link" href="../art_gallery.html">&larr; Back to Gallery</a>
 

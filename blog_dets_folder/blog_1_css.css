@@ -15,6 +15,10 @@ body {
     font-family: Georgia, "Times New Roman", serif;
 }
 
+.article-nav {
+    margin: -28px -20px 28px;
+}
+
 .paper {
     position: relative;
     isolation: isolate;
@@ -219,6 +223,10 @@ body {
     body {
         padding: 0;
         background-color: #fff;
+    }
+
+    .article-nav {
+        margin: 0 0 28px;
     }
 
     .paper {

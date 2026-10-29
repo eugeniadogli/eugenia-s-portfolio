@@ -5,63 +5,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-    background-color: #000000;
-    padding: 24px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: right;
-}
-
-nav > div {
-    display: flex;
-    align-items: center;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 20px;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 900;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    transition: color 0.6s ease;
-}
-
-nav a:hover {
-    color: #008080;
-}
-
-nav a.active {
-    color: #008080;
-}
-
-.nav-name {
-    color: #ffffff;
-    text-decoration: none;
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-    white-space: nowrap;
-}
-
-.nav-first-name {
-    font-family: "DM Sans", sans-serif;
-    font-size: 25px;
-    font-weight: 900;
-    letter-spacing: -1.5px;
-}
-
-.nav-last-name {
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 700;
-}
-
 .blog_intro {
     position: relative;
     display: flex;
@@ -362,22 +305,6 @@ nav a.active {
 }
 
 @media (max-width: 480px) {
-    nav {
-        padding: 20px 14px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 12px 18px;
-        text-align: center;
-    }
-
-    nav a {
-        margin-right: 0;
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-
     .blog_intro {
         min-height: 0;
         padding: 46px 24px 42px;

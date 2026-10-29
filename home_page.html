@@ -9,6 +9,8 @@
     <title>Eugenia Dogli | Portfolio</title>
 
     <link rel="stylesheet" href="css_folder/home_page_css.css">
+    <link rel="stylesheet" href="css_folder/navigation.css">
+    <script src="javascript_folder/navigation.js" defer></script>
 
     <!-- <link rel="stylesheet" href="css/portfolio_style.css"> this line
      tells the browser, go to this folder and load this css file. This is 
@@ -17,15 +19,29 @@
 
 <body>
     <!-- Navigation, to explore other pages of the website -->
-    <nav>
+    <nav aria-label="Primary navigation">
         <a href="home_page.html" class="nav-name">
              <span class="nav-first-name">Eugenia</span>
              <span class="nav-last-name">Dogli</span>
         </a>
-        <div>
-            <a href="home_page.html" class="active">Home</a>
-            <a href="art_gallery.html">Art Gallery</a>
-            <a href="blog.html">Mini Blogs</a>
+        <div class="nav-menu">
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="primary-navigation">
+                <span class="menu-icon" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="home_page.html" class="active" aria-current="page">Home</a>
+                <a href="art_gallery.html">Art Gallery</a>
+                <a href="blog.html">Mini Blogs</a>
+            </div>
         </div>
         <!-- I'm putting all other htmls in the same file -->
     </nav>

@@ -7,56 +7,6 @@ body {
     margin: 0;
 }
 
-nav {
-    background-color: #000000;
-    padding: 20px 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-name {
-    color: #ffffff;
-    text-decoration: none;
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-    white-space: nowrap;
-}
-
-.nav-first-name {
-    font-family: "DM Sans", sans-serif;
-    font-size: 25px;
-    font-weight: 900;
-    letter-spacing: -1.5px;
-}
-
-.nav-last-name {
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 700;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 20px;
-    font-family: "DM Sans", sans-serif;
-    font-weight:900px;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    transition: color 0.6s ease;
-}
-
-nav a:hover {
-    color: #008080;
-}
-nav a.active {
-    color: #008080;
-}
-
-
 .gallery-header {
     position: relative;
     overflow: hidden;
