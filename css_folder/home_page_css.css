@@ -98,6 +98,7 @@ section {
     background-color: #102727;
     padding: 80px 60px;
     display: flex;
+    column-gap: clamp(40px, 6vw, 80px);
     min-height: 500px;
     align-items: center;
 }
@@ -115,8 +116,7 @@ section {
 }
 
 #welcome > div:last-child {
-    margin-left: 50px;
-    
+    margin-left: 0;
 }
 
 #welcome h1 {
@@ -229,6 +229,11 @@ section {
     width: 30%;
 }
 
+#expectations > div:first-child {
+    width: auto;
+    flex: 1;
+}
+
 #expectations h2,
 #expectations h3 {
     margin: 0 0 14px;
@@ -245,6 +250,18 @@ section {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.7;
+}
+
+.expectation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 2.5rem;
+    margin: 22px 0 0;
+    padding-left: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(17px, 1.8vw, 20px);
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 #expectations > div:last-child {
@@ -304,7 +321,7 @@ section {
 
      #welcome > div:last-child {
      margin-left: 0;
-     margin-top: 30px;
+     margin-top: 0;
      order: -1;
     }
 
@@ -353,6 +370,10 @@ section {
     #about,
     #expectations {
         padding: 60px 30px;
+    }
+
+    #welcome {
+        row-gap: 36px;
     }
 
     #name-banner {
