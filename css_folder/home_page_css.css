@@ -151,16 +151,34 @@ section {
 
 /* THE ABOUT SECTION OF THE HOME PAGE */
 #about {
+    position: relative;
+    isolation: isolate;
     background-color: #f3f4f6;
      color: #000000;
      padding: 80px 60px;
      display: flex;
      flex-direction: row-reverse;
      align-items: center;
+     column-gap: clamp(32px, 5vw, 64px);
+     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+#about::before {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background:
+        radial-gradient(ellipse at 2% 4%, rgba(0, 0, 0, 0.045), transparent 23%),
+        radial-gradient(ellipse at 97% 18%, rgba(0, 128, 128, 0.05), transparent 28%),
+        radial-gradient(ellipse at 7% 67%, rgba(0, 188, 212, 0.035), transparent 25%),
+        radial-gradient(ellipse at 92% 88%, rgba(0, 0, 0, 0.04), transparent 24%),
+        repeating-linear-gradient(7deg, transparent 0 17px, rgba(0, 0, 0, 0.009) 18px, transparent 20px);
+    content: "";
+    pointer-events: none;
 }
 
 #about > div:last-child {
-    margin-left: 60px;
+    margin-left: 0;
 }
 
 #about img {
@@ -343,10 +361,12 @@ section {
 
     #about {
     flex-direction: column;
+    row-gap: 36px;
     }   
     #about > div:last-child {
+        margin-left: 0;
         margin-right:0;
-        margin-bottom:30px;
+        margin-bottom:0;
         order: -1;
         text-align:center;
     }
